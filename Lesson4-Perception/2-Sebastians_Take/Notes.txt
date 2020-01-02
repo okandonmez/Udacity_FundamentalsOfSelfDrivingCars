@@ -1,0 +1,6 @@
+Sebastians Take
+
+ Perception is the most important things in self driving cars and possibly one of the hardest. He talks about the humans 
+has the sensors like eyes, arms.. And our brain are calculating sth for not bumping the obstacles. 
+
+ So with the sensors in a car like LiDAR and RADAR we're going to emulate the human brain with AI, Computer Vision...

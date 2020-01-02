@@ -1,0 +1,9 @@
+Inroduction
+
+ Cars dont have the eyes. We need to use a lot of computer vision tech. The most widely used is CNN. They're going to introduce
+the basic application areas of computer vision.
+
+ - Machine Learning
+ - Neural Networks
+     * Convolutional Neural Networks
+ - Introduction to Apollo Features
