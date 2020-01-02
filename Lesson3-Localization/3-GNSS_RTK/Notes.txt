@@ -1,0 +1,39 @@
+1st video notes
+----------------------------------------------------------------
+
+GNSS RTK
+
+ Think about you're totally lost and think anothe scenario which you're only know the 75meter of have distance between tree. You just know the circle and you can be in 
+the somewhere on circle.
+
+ And think one more landmark point which is house and you know the distance between you and home is 64 meters. But you still dont know where you're. (Because there two
+point where you can be are) 
+
+ And imagine the third landmark. (You can see the images which are on the same directory). This process called triangulation. But with this method we can calculate our
+location in only 2D. About locating our position in 3D we need use the satelites. 
+
+ So we need 3 satelites for calculating these landmarks location. 
+
+2nd video notes
+----------------------------------------------------------------
+
+GPS  -> Global Positioning System  (So cool)  	Generic term for this type of system is:
+GNSS -> Global Navigation Satellite System 
+
+GPS has 3 parts
+
+- Satellites     : There are about 30 GPS satellites operating in outer space at any given time. 20.000km from suface of earth
+- Control System 
+- Receiver       : Phones, Cars.
+
+
+Gps receiver first measures the time of flight of the signal. Every satellite is equipped with a highly accurate atomic clock. 
+
+To reduce error, he says we can use the
+
+RTK -> Real Time Kinematic positioning
+
+Rtk involves setting up several base stations on the ground. Each base station knows its own precise Ground Truth location. So difference between Gps Result and 
+ground truth location is give us to error rate. 
+
+With the help of RTK it measures the location 10centimeters precision. There are some pros and cons so you can find these in same dir. (Works in 10Hz!)

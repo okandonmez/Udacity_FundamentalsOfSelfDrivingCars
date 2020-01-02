@@ -1,0 +1,13 @@
+Visual Localization
+
+ Camera images are easiest types and so they're cheap ! But precise location from images is hard. In practise they can be
+combines from other sensors to accurately localize the vehicle.
+
+ 3DMap and Image match !
+
+ There is a example scenario which contains the car and tree. There can be a tree in everywhere but we are interested in 
+which trees are on our right side. So collecting like theese informations, we can precise our location. (Observations) This
+process called particle filter.
+
+ Advantage of visual localization is image data is easy to obtain. Disadvantage point is lack of 3d infos.
+

@@ -1,0 +1,20 @@
+Lidar Localization
+
+ With lidar, we can localize a car by means of point cloud matching. This method continously matches the detected data from
+lidar sensors with the preexisting high definition map. Complete position and heading of the car. There are many algorithms
+for matching the points. 
+
+ One of the is Iterative Closest Point or ICP.
+
+ We can make the comparison between sensor scan and global map. Result of this comparison we can calculate our location.
+
+ Filter algorithms are another approach. They're removes redundant information and find the most likely position of the vehicle
+on the map. Apollo uses HISTOGRAM FILTER.
+
+ This approach is uses the Sum Of Squeare Differences or SSD.(That equation in dir)
+
+
+ KALMAN FILTERS are another approach to LIDAR localization. 
+Based on our current state based on our past state in new sensor measurement. Kalman Filters use a prediction update cycle. 
+
+All of them can be changed in next time !!!

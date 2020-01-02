@@ -1,0 +1,26 @@
+Localization
+
+  Localization is how an autonomous vehicle knows exactly where it is in the world. The task of localization is to locate your vehicle on the high definition map(Assume
+that we have the high definition map of all planet). 
+
+  GPS is not accurate enough for a self-driving car. (Most of the time GPS calculates the location 1 to 3 meters. In some cases like you're in the tall buildings or 
+mountains it calculates the 10 to 50 meters sensitvity.) 
+
+  We have to find another way to more precisely locate our vehicle on the map. The most common method is to compare what the car sensors see with what appears on the map.
+Vehicle sensors can measure the distance between the vehicle and static objects such as trees, polls, road signs and walls. We measure these distances and the direction to
+these static objects in the vehicles own coordinate frame.
+
+  A landmark detected by the vehicle sensors may also be on the map. To estimate the position of the vehicle on the map, we match landmark observations from 
+our sensors with the locations of those landmarks on the map. Our self-driving software has to transform the sensor measurements from the vehicle coordinate 
+frame to the map coordinate frame and vice versa.
+
+  For localization, the vehicle compares the landmarks that its sensors identify to the landmarks that are present on the high definition map. In order to make this 
+comparison, it must be able to transform data between its own coordinate frame and the map's coordinate frame.
+The system must then pinpoint the vehicles precise location on the map to within 10 centimeters.
+
+We will explore several common localization measures for self-driving cars,
+
+	- GPS RTK
+	- Inertial navigation
+	- LIDAR localization
+	- Visual localization.

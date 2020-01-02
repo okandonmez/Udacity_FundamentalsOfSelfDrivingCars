@@ -1,0 +1,20 @@
+Inertial Navigation
+
+1st Video
+---------------------------------------------------
+ Imagine a car travelling in a straight line at constant velocity. If i gave the initial position of the car, after t time we can calculate the position of car. 
+
+ Same problem without initial position, we have the initial speed and velocity. We can tell the velocity of car after t time. 
+
+  v = v0 + at
+
+2nd Vide
+----------------------------------------------------
+
+ This just raises another question: How can we measure the acceleration ? 
+
+	- Accelerator
+	- Gyroscope
+
+ the main components of an Inertial Measurement Unit -> IMU (can reach 1000Hz) We can trust the Imu for localization over a very short time horizon. So we can combine 
+the IMU and GPS. 

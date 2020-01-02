@@ -1,0 +1,1 @@
+This repo will contain the lecture notes of Welcome Lesson in Udacity

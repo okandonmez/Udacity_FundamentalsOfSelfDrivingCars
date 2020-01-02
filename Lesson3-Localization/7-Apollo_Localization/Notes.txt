@@ -1,0 +1,3 @@
+Apollo Localication?
+
+Apollo uses a multi-sensor fusion localization system based on GPS, IMU and LiDAR. Improves stability and accuracy.

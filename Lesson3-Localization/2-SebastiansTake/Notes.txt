@@ -1,0 +1,6 @@
+Sebastian's Take
+
+ He published over 100 papers about localization. Are u kidding?
+
+ It's not only X, Y locations also heading direction. He talking about the precision about localization and gives the 
+motivation.
