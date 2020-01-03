@@ -1,0 +1,7 @@
+LiDAR Images
+
+ Some parameters like distances are diffucult to obtain from cameras. LiDAR sensors uses laser for depth calculations.
+After reflection of laser, LiDAR measures to time. 
+
+ Data it collects forms a cloud of points or point cloud. Each point in the point cloud represents a laser beam that bounces
+back to the sensor. These point clouds can tell us a lot of things avout object such as shape surface texture. 

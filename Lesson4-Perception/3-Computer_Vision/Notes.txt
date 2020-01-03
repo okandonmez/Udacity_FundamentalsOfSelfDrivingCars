@@ -1,1 +1,21 @@
 Computer Vision
+
+has 4 tasks the perceiving the world
+
+Detection: means finding out where an object is in the enviroment
+Classification : determining what exactly the object is
+Tracking : means observing objects like other vehicles
+semantic segmantation: means matching each pixel in an image with the semantic category ( road car or sky )
+
+He's talking about the classifiers.  
+
+Interesting point : Classifiers can even identify behaviors like whether a person is walking or running.
+
+There're many types of classifiers but they all include a similar series of steps.
+
+Input Data -> Preprocessing    ->  Feature     -> Fit to a Classification Model
+		Resizing	     Shape		Determine the Class
+		Rotating	     Wheels		
+		Color Transf
+
+We need to build models. 

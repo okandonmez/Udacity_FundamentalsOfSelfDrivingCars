@@ -1,0 +1,14 @@
+Neural Network
+
+Inspired by biological neurons that comprise the human nervous system.  
+
+ Neural Networks are comprised of a large number of neurons. They're responsible for delivering and processing the 
+information.
+
+ You may not even know how you know that they're vehicles. We dont always know how they distinct, but they learn a
+mathematical model for performing this task. 
+
+  When we see a image how our brains work ? First divide to several parts and then identify features such as wheels.
+Windows and colors then our brains use those features for classifcation.   
+
+  But our understand isnt ultimately necessary. 

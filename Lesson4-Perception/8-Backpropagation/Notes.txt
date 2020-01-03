@@ -1,0 +1,10 @@
+Backpropagation
+
+Training process is contain 3 steps
+
+ - Feed Forward : We start by randomizing initial weights. Then we feed each image through the neural network to generate
+an output value.
+ - Error M. : Difference between ground truth label
+ - Backpropagation We send the error rate to neurons like feed forward process but in reverse.  
+
+ Result of all individual is for more accurate. 

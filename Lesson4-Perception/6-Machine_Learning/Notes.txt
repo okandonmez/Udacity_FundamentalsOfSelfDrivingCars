@@ -1,0 +1,22 @@
+Machine Learning
+
+ Machine Learning is a special algorithms to train computers to learn from data. We talked about the models and there
+are many types of models.
+
+ A model is tool that we can make a prediction about a new object. 
+ Machine Learning was born in 1960s but get accelearation on the last 20 years. So its dependent on the 
+hardware improvements. 
+
+  He's talking about application areas of ML.
+
+  Supervised Learning: I might show the images with label. Because the model is taking advantage of ground truth 
+labels created by humans. 
+
+  Unsupervised Learning: We would let the computer decide on its own which images are similar and which are different
+
+  Semisupervised Learning: Learning combines characteristics of supervised and unsupervised learning. Small amount of 
+labeled data and large amount of unlabelled data. 
+
+  Reinforcement Learning: Another type of Machine Learning. Reinf learning allows a model to try many different approaches
+to solve a problem and then measures which approach is most succesful. Computer attempts many different solution and 
+ultimately adapts its approach to enviroment. (Reward !)

@@ -1,0 +1,7 @@
+Camera Images
+
+ Are most common input. Image is 2D grid also known as a matrix. Most image processing operation,
+is applying the mathematical operation to every pixel.
+
+ He is talking about the RGB, depth 3....
+
