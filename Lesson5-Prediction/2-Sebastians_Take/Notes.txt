@@ -1,0 +1,18 @@
+Sebastians Motivation
+
+Now that you know how to perceive the world using sensors, the next question is 
+how to predict it.
+
+The next thing is to predict how the world is going to look in the future and it's 
+important because as you plan your path where to go, you want to understand where all 
+the other guys are going, the other cars, and bicycles, and pedestrians.
+
+If you don't, you will crash.
+
+So it's all about prediction.
+
+there're two basic types of prediction we're going to look at, one is model-based one is
+data-driven. Model-based obviously is more analytic.
+
+So we're going to simplify prediction to make it manageable and it's going to be the core
+for decision making

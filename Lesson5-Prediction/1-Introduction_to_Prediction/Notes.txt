@@ -1,0 +1,15 @@
+Predictions
+
+Our car needs to predict the behavior of these other objects so that we're able to make
+the best decisions about what our own vehicles should do.
+
+We predict the behavior of an object by generating trajectory for it. Watch the car steer
+to the right, and it start to decelerate in front of the ramp.
+
+This is the trajectory we might predict for this car. We make similar predictions for all 
+the other objects in our environment.
+
+At each timestep, we recalculate the predictions for every vehicle in the environment.
+These predictions inform the decisions our vehicle makes during the planning phase.
+
+objects based on both their state and the location of our own self-driving car.

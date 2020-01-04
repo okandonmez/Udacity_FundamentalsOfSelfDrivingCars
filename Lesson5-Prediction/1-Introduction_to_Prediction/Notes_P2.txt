@@ -1,0 +1,12 @@
+Predictions
+
+Prediction needs to be real-time, that means we want the latency to be as small as possible.
+so we want to ensure that the next five meters is free of obstacles and safe to traverse 
+before we drive into it.
+
+The next goal is accuracy. We want our predictions to be as accurate as possible
+
+The prediction module should also be able to learn new behaviors.Situations become really 
+complicated with multiple vehicles on the road.
+
+It's impossible to develop a static model that considers every single scenario. 

@@ -1,0 +1,30 @@
+Approaches
+
+We'll introduce two different prediction approaches;
+
+ - model-based prediction 
+ - data-driven prediction.
+
+Suppose our car pulls up to a T-shaped intersection and sees another 
+car approaching from the left. At this moment, we're not yet sure whether that other
+ car is going to turn right or go straight.
+
+Using the model-based approach,
+we actually construct two candidate predictive models for this scenario.
+One model describes the movement of that other vehicle turning right, which we illustrate
+ with the green trajectory.The other model describes the movement
+ of that vehicle continuing straight, which we illustrate with the blue trajectory. At 
+this instant, we think either of those two models is equally likely.
+
+We observe the movement of the moving vehicle
+to see if it matches one of those trajectories.
+If we were to see the vehicle start to shift lanes to the left,
+we would become more confident that
+the vehicle was ultimately planning to continue straight.
+That's how model-based prediction works.
+
+Data-driven prediction uses machine learning to train a model based on observations.
+Once the machine learning model is trained,
+we can use it to make predictions in the real world.
+The advantage of data-driven prediction is that the more data we add to the training set
+the better our model gets.
