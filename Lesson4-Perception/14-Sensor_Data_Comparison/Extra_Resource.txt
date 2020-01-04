@@ -1,0 +1,30 @@
+Radar and LiDAR
+Radars have in automobiles for years. You can find them in systems like adaptive cruise control, 
+blind spot warning, collision warning and collision avoidance. Even though Radar is a mature technology,
+ it still gets improved all the time to make it even more powerful. While other sensors measure velocity
+ by calculating the difference between two readings, Radar uses something called the Doppler effect to 
+measure speed directly. The Doppler effect measures the change in frequency of the Radar waves based on
+whether the object is moving away from you or toward you. This is kind of like how a fire engine siren will 
+sound differently depending on whether the fire engine is moving away from you or toward you. The Doppler effect
+ is important for sensor fusion because it gives us the velocity as an independent measure parameter, and it makes 
+the fusion algorithms converge much faster. Radar can also be used for localization by generating Radar maps of
+ the environment. Because Radar waves bounce off hard waves bounce off hard surfaces, they can provide measurements
+ to objects without direct line of flight. Radar can see underneath other vehicles, and spot buildings and objects
+ that would be obscured otherwise. Of all the sensors on the car, Radar is the least affected by rain or fog and can
+ have a wide field of view, about 150 degrees, or a long range, 200 plus meters. Compared to LiDARs and cameras,
+ Radars have a low resolution. Especially in the vertical direction, the resolution is very limited. The lower
+ resolution also means that reflections from static objects can cause problems. For example, manhole covers or a
+ soda can lying on the street can have high Radar reflectivity even though they are relatively small.This is called
+ Radar clutter, and it’s why current automotive Radars usually disregard static objects.
+
+LiDAR stands for Light Detection and Ranging, just as Radar stands for Radio Detection and Ranging. Unlike Radar,
+ which uses radio waves, LiDAR uses an infrared laser beam to determine the distance between the sensor and a nearby 
+object. Most current LiDAR use light in the 900 nanometer wave length range, although some LiDARs use longer wave lengths,
+ which perform better in rain and fog. In current LiDARs, a rotating swivel scans the laser beam across the field of view.
+ The lasers are pulsed, and the pulses are reflected by objects. These reflections return a point cloud that represents
+ these objects. LiDAR has a much higher spatial resolution than Radar because of the more focused laser beam, the larger
+ number of scan layers in the vertical direction, and the high density of LiDAR points per layer. The current generation of 
+LiDARs cannot measure the velocity of objects directly. And have to rely on the differing position between two or more scans.
+ LiDARs are also more affected by weather conditions and by dirt on the sensor, which requires keeping them clean. They are 
+also much bulkier than other sensors and therefore, more difficult to integrate unless one just wants to mount a big scanner 
+on the roof of the vehicle.

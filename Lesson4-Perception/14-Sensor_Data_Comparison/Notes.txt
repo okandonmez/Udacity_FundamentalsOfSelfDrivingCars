@@ -1,0 +1,4 @@
+Sensor Data comparison
+
+Perception most commonly relies on camera, LiDAR and radar. 
+The table shows awesome comparison about these sensors.

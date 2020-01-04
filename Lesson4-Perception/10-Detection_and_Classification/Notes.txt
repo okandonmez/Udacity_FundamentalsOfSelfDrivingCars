@@ -1,0 +1,29 @@
+Detection and classification
+
+When we talked about the detection, usually firsty thinks the obstacles. 
+
+Static objects walls, trees even buildings
+Dynmaic objects pedestrians, cars bicycles.
+
+Computer first needs to know where these objects are located and then classify them. 
+
+Important point is that:
+
+ If the obstacle is bicycle, car may want to change lane and safely pass the bicycle
+ but if the obstacle is car, car may dont want to change lane. Keep the distance between car 
+and safely travel on same lane. 
+
+ Another example is traffic ligh detection and classification.   
+
+ What algorithms do we use in obstacle detection and classification ?
+
+ - First we use a detection CNN to find the location of objects within the image.   
+
+ Two approach can be apply
+ 1) Detect, localize in one CNN and pass to data for classifaction to another CNN
+ 2) Do detection and classification using a single CNN architecture
+
+YOLO and SSD with similar forms.
+
+
+ 

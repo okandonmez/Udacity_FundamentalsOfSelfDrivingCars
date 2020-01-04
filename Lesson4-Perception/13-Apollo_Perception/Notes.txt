@@ -1,0 +1,12 @@
+Apollo Perception
+
+ Apollo software stack perceives obstacles, traffic lights, and the lanes. 3d object detection
+Apollo uses the Region of Interest (ROI) filter on high precision map to focus on relevant objects.
+narrowing the search scope and accelerating. 
+
+ Traffic light classification, Apollo uses the HD map to determine whether there's trafic light
+ahead. If there is a traffic light head HD map returns the location of the light. After capturing
+the trafic light image Apollo uses a detecttion Network to localize the light within the image.
+
+ Apollo crops the traffic light and after determines the class. Apollo uses the YOLO network
+to detect 

@@ -1,0 +1,11 @@
+Tracking
+
+After detect the object we need the track. why we need?cause of driving dynamics.
+
+For one thing tracking is crucial when detection fails. 
+
+ Detect the object as features and pass to next frame and look for same features in the 
+frame. 
+
+ Estimation on speed.
+

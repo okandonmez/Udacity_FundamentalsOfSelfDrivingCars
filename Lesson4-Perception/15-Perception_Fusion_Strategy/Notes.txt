@@ -1,0 +1,21 @@
+Perception Fusion Strategy
+
+ Apollo obstacle detection uses both lidar and radar. The main algorithm for fusin their 
+output is the Kalman Filter. 
+
+ A Kalman Filter has 2 steps:
+ - First step is to predict state. 
+ - Second step is to update measurements. 
+
+ Imagine tracking the pedestrians, the state here includes the position and speed of the 
+pedestrian. We start with what we already know about the pedestrian state. We use that info
+to perform the first step of the Kalman Filter. Which is the predict the future state of the 
+pedestrian. 
+
+ Next step: We use new sensor measurements to update our belief about the state of the pedestrian.
+Kalman Filter algorithm is an endless loop of prediction and update steps. 
+
+ 2 approaches for measurement update step
+ - Synchronous  : update measurements from different sensors all at the same time.
+ - Asynchronous :  update as they arrive 
+

@@ -1,0 +1,13 @@
+Segmentation
+
+ Semantic segmentation involves classifying each pixel in the image. 
+
+ Semantic segmentation relies on similar CNN called a Fully Convolutional Network or FCN
+The FCN replaces the flat layers at the end of  a traditional CNN architecture with convolutional
+layers. Now every layer in the network is a convolutional layer hence the name fully convolutional
+network. FCN provides by pixel by pixel output that we can layer on top of our original input image.
+
+ Typical CNN result shape is much smaller than the original input image. For segmentation
+our output size must match the size of original image. 
+
+ First part is encoder, second part is decoder. 
