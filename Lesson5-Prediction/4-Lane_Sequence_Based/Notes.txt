@@ -1,0 +1,7 @@
+Apollo provides a model-driven approach called Lane Sequence-Based Prediction.
+
+To build lane sequences, we first divide the road into multiple segments.
+
+For prediction purposes, we care more about how the vehicle transitions between these segments,
+than how it behaves within the segments. We can group vehicles' behaviors into a limited set of
+patterns and describe these patterns as sequences of lane segments.

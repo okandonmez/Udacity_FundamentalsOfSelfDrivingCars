@@ -1,0 +1,13 @@
+Obstacle Status
+
+To predict the motion of an object, we need to know the state of the object.
+
+When we're driving, as humans, we predict what an object will do by looking at its heading,
+position, speed, and acceleration.This is also how an autonomous vehicle observes object's state.
+
+
+In addition to position, speed, heading, and acceleration, our autonomous vehicle will also 
+consider the position of the object inside the lane segment.
+
+The prediction module also incorporate state information from previous timesteps in order to
+ make more accurate predictions.

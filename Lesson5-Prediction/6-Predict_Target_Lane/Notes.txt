@@ -1,0 +1,21 @@
+Our goal, using the lane sequence framework, is to generate trajectories for objects on the road.
+
+So, let's begin with a slightly easier problem. We'll predict the transition between lane 
+segments. Suppose we detect a car in a lane segment zero and we want to predict how it's going 
+to move over the next few timesteps.
+
+There are two obvious options.
+
+It might stay in lane segment zero and then turn right or it might shift to lane segment one 
+and then go straight.
+
+We can make this choice by calculating the probabilities for each lane sequence. We need a model
+that takes as input both the vehicle state and the lane segments. This model should provide 
+a probability that the vehicle will take each of the lane sequences.
+
+So the model should be trained empirically using observed data.
+
+In training, we'll provide the model with real examples that include not only the lane 
+segments and object state, but also which lane sequence the object ultimately chose. By adding
+more and more of these records over time, the model can iteratively update itself and become
+ increasingly accurate.
