@@ -1,0 +1,10 @@
+Apollo uses RNNs to build a model to predict the target lane of a vehicle. Apollo provides one
+RNN model for the lane sequences and another RNN model for the associated object states.
+
+Apollo then concatenates the outputs of these two RNNs and feeds them into another neural
+network which estimates a probability for each lane sequence.
+
+To train this network, we use existing records. Each record contains a lane sequence, the 
+associated object states, and a label indicating whether the object followed this specific 
+lane sequence or not. For training, we compare the output of our network and the ground truth
+label, and use backpropagation to train the network.

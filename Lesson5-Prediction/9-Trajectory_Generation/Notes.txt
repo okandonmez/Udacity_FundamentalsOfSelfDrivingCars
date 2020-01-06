@@ -1,0 +1,20 @@
+Trajectory generation is the final step of prediction.
+
+
+Between any two points, A and B, there are infinite candidate trajectories for an object 
+to travel.
+
+How do we predict the most likely trajectory?
+
+First, we make an assumption that the car will align with the center of the target lane.
+We continue by discarding trajectories which are impossible to be physically executed by the 
+vehicle.
+
+We select from among the remaining trajectories by considering the vehicle's current velocity
+and acceleration.
+
+In practice, we don't actually list all of the possible trajectories and eliminate them 
+one-by-one. Rather, we apply this idea mathematically.
+
+We can fit a polynomial model using these two conditions. In most cases, this kind of polynomial
+model is good enough for prediction.

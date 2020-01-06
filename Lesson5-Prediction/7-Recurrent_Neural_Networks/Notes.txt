@@ -1,0 +1,19 @@
+RNN
+
+Recurrent neural networks or RNNs are an approach to prediction that takes special advantage 
+of time-series data.
+
+Before we study RNNs specifically, let's review neural networks generally. Neural networks are
+trainable multi-layer models. A neural network takes an input, extracts high-level features,
+ and uses those features to calculate an output.
+
+A basic network architecture accepts data, feeds the data through multiple hidden layers, and 
+produces an output. This architecture is sometimes called a multi-layer perceptron network or
+MLP.
+
+In the training process the model will be fed lots of training data. Each data record consists
+of an input and a label.
+
+Neural networks learn from data via a process called backpropagation.
+
+Look the image named in same dir : "FundamentalsOfRNN"
