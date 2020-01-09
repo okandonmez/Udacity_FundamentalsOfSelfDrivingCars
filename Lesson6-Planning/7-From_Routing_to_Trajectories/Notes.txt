@@ -1,0 +1,7 @@
+
+ The high level map route is only one part of the planning process. We still have to build low-level
+trajectories to move along that route. This means dealing with objects like other vehicles or 
+pedestrians that aren't part of the map.  
+
+ These traffic scenarios require lower level, higher precision planning. We call this level trajectory
+generation. 

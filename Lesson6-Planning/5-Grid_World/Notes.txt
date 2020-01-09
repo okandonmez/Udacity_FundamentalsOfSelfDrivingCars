@@ -1,0 +1,14 @@
+ A star is a classic algorithm to handle path finding. We take each cell in this world is a node
+we're able to move any on node to any of its adjacent nodes. And particular world has some obstacles
+that block potential paths. 
+
+ The computer has to check if any path leads to the goal. The computer could exhaustively try all
+the possible paths to find the shortest one. This takes a lot of time especially when the map gets larger.
+
+ 8 adjacent cells. These 8's has another 8 adjacent according to map. 
+
+ We need to consider most of the adjacent nodes is candidate. For each of the candidate nodes we consider
+2 things. 
+
+ - First we calculate the cost it takes to travel from the start node to that candidate node. 
+ - Second we estimate how much it costs to travel from that candidate node to the goal. 

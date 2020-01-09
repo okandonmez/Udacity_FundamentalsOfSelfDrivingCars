@@ -1,0 +1,8 @@
+ Now lets consider a map in the real world. Suppose we'd pull up to an intersection. We can go
+to the multiple ways. 
+
+ After getting the candidate nodes, we evaluate the our options. From the image, it takes a lot of
+cost through the intersection. Assign a higher g value. 
+
+ Go all over highway and exit takes too much and assign it as h value. 
+ Sum the h and g values calculate for f value.
