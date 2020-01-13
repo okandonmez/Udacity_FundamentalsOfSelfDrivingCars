@@ -19,6 +19,41 @@ Through this course, you will be able to identify key parts of self-driving cars
 7- Control
 ```
 
+## 1- Welcome
+```
+Notes gonna come here
+```
+## 2- HD-Maps
+
+```
+Notes gonna come here
+```
+## 3- Localization
+
+```
+Notes gonna come here
+```
+## 4- Perception
+
+```
+Notes gonna come here
+```
+## 5- Prediction
+
+```
+Notes gonna come here
+```
+## 6- Planning
+
+```
+Notes gonna come here
+```
+## 7- Control
+
+```
+Notes gonna come here
+```
+
 
 ### References
 
