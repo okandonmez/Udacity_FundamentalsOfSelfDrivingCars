@@ -1,0 +1,20 @@
+{\rtf1\ansi\ansicpg1254\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Path Generation\
+\
+To generate candidate paths for Path-Velocity Decoupled Planning, we start by segmenting the road in to cells. Then we randomly sample points from each of these cells. We create candidate path by taking one point from each cell and connecting the points together. \
+\
+ By repeating this process we can create a multiple candidate paths. We evaluate those paths using a cost function and select the path with minimum cost. \
+\
+ 2 parameters for cost function:\
+\
+ - Deviation from the center of line\
+ - Distance from obstacles \
+ - Changes in speed and curvature\
+ - Stress on the vehicle\
+}
