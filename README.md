@@ -1,7 +1,6 @@
 ## General Information About Repository
 
- This repo will containt the my lecture notes of Udacity Fundamentals Of Self Driving Car. After finishing that trainer i will write
-a very detailed summary notes about course for me and whose interested. 
+ This repo will contains the my lecture notes of Udacity Fundamentals Of Self Driving Car. After finishing that trainee i will write a very detailed summary notes about course for me and whose interested. 
 
 ## General Information About Course
 
