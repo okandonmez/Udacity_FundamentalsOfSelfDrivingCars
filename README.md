@@ -19,34 +19,37 @@ Through this course, you will be able to identify key parts of self-driving cars
 ```
 
 ## 1- Welcome
+### Definition
 ```
 Identify the key parts of the self-driving cars and get know the Apollo teams and architecture.
 ```
 ## 2- HD-Maps
-
+### Definition
 ```
 High-Definition maps underpin almost every other part of the software stack. 
 ```
 ## 3- Localization
+### Definition
 ```
 How the vehicles localizes itself with single-digit centimeter-level accuracy. 
 ```
 ## 4- Perception
+### Definition
 ```
 Identify different perception tasks such as classification, detection, and segmentation. Also, about convolutional networks, which are critical to perception.
 ```
 ## 5- Prediction
-
+### Definition
 ```
 Notes gonna come here
 ```
 ## 6- Planning
-
+### Definition
 ```
 Notes gonna come here
 ```
 ## 7- Control
-
+### Definition
 ```
 Notes gonna come here
 ```
